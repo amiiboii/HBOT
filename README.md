@@ -6,3 +6,5 @@ To move the hbot, you need to modify the values of X, Y, F, and A in the cord.tx
   Y: 4300 to -4300
 
 F represents the feed rate, while A represents the acceleration. It's important to use the given delays as they are more suitable for this purpose. To ensure the accuracy of the movements, it's advisable to make small increments and double-check the sequence before executing it.
+
+The HBOT folder in the directory contains the firmware that is flashed to the ClearCore logic board. Before adjusting any parameters, it's important to go through the code and ensure that all the settings are correct. 
