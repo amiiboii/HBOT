@@ -8,6 +8,7 @@ angle2 = [0]
 #X====  1700  -1300
 #Y====  4300  -4300
 
+filepath = '/Users/amithnalherath/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Curtin/Internship/Tub inspection/cord.txt' #Change Location Due to your Parameters
 
 address = ('169.254.88.53', 8888)  # match arduino IP + port
 client_socket = socket(AF_INET, SOCK_DGRAM)
@@ -80,10 +81,6 @@ def inverse(displacement_x, displacement_y):
 
         
     return motor1_angle, motor2_angle
-
-
-
-filepath = '/Users/amithnalherath/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Curtin/Internship/Tub inspection/cord.txt'
 
 while(True):
 
